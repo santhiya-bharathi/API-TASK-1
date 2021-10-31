@@ -33,6 +33,7 @@ body{
     border-radius: 1rem;
     border:crimson solid 4px;
     box-shadow: 5px 5px 15px  rgb(13, 13, 14);
+    transition: all 0.2s;
 }
 
 
@@ -45,6 +46,7 @@ body{
  font-family: sans-serif;
 }
 .isro-container:hover{
+    transform: scale(1.1);
     background-image: url("https://airbus-h.assetsadobe2.com/is/image/content/dam/channel-specific/website-/products-and-services/space/earth-observation-satellites/web.space.climatemonitoring.EO.jpg?wid=1920&fit=fit,1&qlt=85,0");
     background-repeat: round;
     cursor: pointer;
