@@ -9,7 +9,7 @@ body{
     font-family: sans-serif;
     font-weight: bolder ;
     text-align: center;
-    background-color: crimson;
+    background-image: linear-gradient(to right, #b91949, #bf0064, #b80089, #9b00b6, #4524e5);
     height: 60px;
     display: flex;
     align-items: center;
@@ -49,6 +49,7 @@ body{
     transform: scale(1.1);
     background-image: url("https://airbus-h.assetsadobe2.com/is/image/content/dam/channel-specific/website-/products-and-services/space/earth-observation-satellites/web.space.climatemonitoring.EO.jpg?wid=1920&fit=fit,1&qlt=85,0");
     background-repeat: round;
+    border: lime solid 4px;
     cursor: pointer;
    opacity: 1.1;
 }
