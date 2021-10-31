@@ -1,0 +1,59 @@
+
+body{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+   min-height: 100vh;
+
+}
+.heading{
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bolder ;
+    text-align: center;
+    background-color: crimson;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    letter-spacing: 1px;
+   
+}
+.grid-container{
+    display: inline-grid;
+}
+.isro-container{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/32/381/143/planet-sci-fi-satelite-wallpaper-preview.jpg");
+   
+    background-position-x: left;
+    opacity: 0.9;    
+    height: 260px;
+    width: 300px;
+    margin: 20px;
+    margin-right: 0px;
+    border-radius: 1rem;
+    border:crimson solid 4px;
+    box-shadow: 5px 5px 15px  rgb(13, 13, 14);
+}
+
+
+.details{
+ padding-left: 10px;
+ padding-top: 5px;
+ color: white;
+ font-weight: 600;
+ letter-spacing: 1px;
+ font-family: sans-serif;
+}
+.isro-container:hover{
+    background-image: url("https://airbus-h.assetsadobe2.com/is/image/content/dam/channel-specific/website-/products-and-services/space/earth-observation-satellites/web.space.climatemonitoring.EO.jpg?wid=1920&fit=fit,1&qlt=85,0");
+    background-repeat: round;
+    cursor: pointer;
+   opacity: 1.1;
+}
+.details:hover{
+    color:black;
+}
+.sat{
+    text-align: center;
+    text-transform: uppercase;
+}
